@@ -30,8 +30,7 @@ q:before{
 	position: absolute;
 	font-style: normal;
 	left: 0;
-	top: 5px;
-	top: 0.5rem;
+	top: 0;
 	font-size: 50px;
 	font-size: 5rem;
 	-webkit-font-smoothing: antialiased;
