@@ -30,9 +30,6 @@ function fyeah_theme_setup(){
 	/* === LAYOUTS === */
 	require_once( $includes . 'layouts.php' );
 
-	/* === BACKGROUND === */
-	require_once( $includes . 'background.php' );
-
 	/* === HEADER IMAGE === */
 	require_once( $includes . 'header-image.php' );
 
@@ -44,6 +41,9 @@ function fyeah_theme_setup(){
 
 	/* === POST FORMATS === */
 	require_once( $includes . 'post-formats.php' );
+
+	/* === COLOR OPTIONS === */
+	require_once( $includes . 'color.php' );
 }
 
 do_action( 'tamatebako_after_setup' );
