@@ -1,0 +1,53 @@
+body, body#tinymce{
+	font-family: "PT Serif",Georgia,Times,"Times New Roman",serif;
+	max-width: 500px;
+}
+a{
+	color: #0073aa;
+}
+a:hover,
+a:focus {
+	color: #00a0d2;
+}
+ul{
+	list-style: circle;
+}
+/* Blockquotes */
+blockquote, q{
+	font-size: 20px;
+	font-size: 2rem;
+	font-style: italic;
+	position: relative;
+	color: #777;
+	padding: 0 0 0 60px;
+	padding: 0 0 0 6rem;
+}
+blockquote:before,
+q:before{
+	content: "\f122";
+	font-family: "dashicons";
+	color: #ccc;
+	position: absolute;
+	font-style: normal;
+	left: 0;
+	top: 5px;
+	top: 0.5rem;
+	font-size: 50px;
+	font-size: 5rem;
+	-webkit-font-smoothing: antialiased;
+}
+blockquote cite{
+	display: block;
+	margin-top: 10px;
+	margin-top: 1rem;
+}
+/* Forms */
+label{
+}
+/* Pre, Code */
+pre{
+	background-color: #eee;
+}
+code{
+	background: #eee;
+}
