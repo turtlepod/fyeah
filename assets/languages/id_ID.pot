@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Theme\n"
 "Report-Msgid-Bugs-To: http://genbu.me/contact/\n"
-"POT-Creation-Date: 2015-07-24 22:17+0700\n"
-"PO-Revision-Date: 2015-07-24 22:17+0700\n"
+"POT-Creation-Date: 2015-07-25 06:26+0700\n"
+"PO-Revision-Date: 2015-07-25 06:27+0700\n"
 "Last-Translator: David Chandra Purnama <david@shellcreeper.com>\n"
 "Language-Team: \n"
 "Language: id_ID\n"
@@ -21,6 +21,21 @@ msgstr ""
 "_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
+
+#: includes/color.php:30
+msgctxt "customizer"
+msgid "Background Color"
+msgstr "Warna Latar Belakang"
+
+#: includes/color.php:54
+msgctxt "customizer"
+msgid "Link Color"
+msgstr "Warna Tautan"
+
+#: includes/color.php:78
+msgctxt "customizer"
+msgid "Link Hover Color"
+msgstr "Warna Tautan (Hover)"
 
 #: includes/layouts.php:9
 msgctxt "layout name"
@@ -47,12 +62,12 @@ msgctxt "layout"
 msgid "Global Layout"
 msgstr "Layout Global"
 
-#: includes/logo.php:14
+#: includes/logo.php:13
 msgctxt "customizer"
 msgid "Logo"
 msgstr "Logo"
 
-#: includes/logo.php:15
+#: includes/logo.php:14
 msgctxt "customizer"
 msgid ""
 "Recommended size for logo is 300px wide and 300px tall. Logo Will be "
@@ -182,19 +197,17 @@ msgstr "Buka Sidebar"
 
 #: sidebar/primary.php:13
 msgctxt "default widget"
-msgid "About FYeah"
-msgstr "Tentang FYeah"
+msgid "About \"fyeah\""
+msgstr "Tentang \"fyeah\""
 
 #: sidebar/primary.php:14
 msgctxt "default widget"
 msgid ""
-"<strong>FYeah</strong> is a responsive WordPress themes with Post Formats "
-"support, two layouts options, header image, logo upload, background options, "
-"and custom css features."
+"Responsive theme with post formats, two layouts, header image, logo upload, "
+"background color, and custom css option."
 msgstr ""
-"<strong>FYeah</strong> adalah tema WordPress responsive dengan support post "
-"format, dua pilihan layout, gambar kepala halaman, pengunggah logo, pilihan "
-"latar belakang halaman, dan fitur CSS kustom."
+"Tema Responsive dengan support post format, dua pilihan layout, gambar "
+"kepala halaman, pengunggah logo, latar belakang halaman, dan opsi CSS kustom."
 
 #, fuzzy
 #~ msgid "Close Sidebar"
