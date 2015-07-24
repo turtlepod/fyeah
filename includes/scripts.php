@@ -74,9 +74,6 @@ $register_css_scripts = array(
 	"theme-pt-serif" => array(
 		'src'   => add_query_arg( 'family', 'PT+Serif:' . urlencode( '400,400italic,700,700italic' ), "//fonts.googleapis.com/css" ),
 	),
-	"theme-open-sans" => array(
-		'src'   => add_query_arg( 'family', 'Open+Sans:' . urlencode( '400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' ), "//fonts.googleapis.com/css" ),
-	),
 	"theme-satisfy" => array(
 		'src'   => add_query_arg( 'family', 'Satisfy', "//fonts.googleapis.com/css" ),
 	),
