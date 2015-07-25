@@ -456,7 +456,29 @@ body.admin-bar #menu-primary{
 			}
 			.comments-link:after{
 			}
-/* Entry Content, Entry Summary */
+	/* Entry Content, Entry Summary */
+	.theme-thumbnail{
+		display: block;
+	}
+	.theme-thumbnail-large img{
+		width: 100%;
+		height: auto;
+		float: none;
+		display: block;
+		margin-bottom: 20px;
+		margin-bottom: 2rem;
+	}
+	.theme-thumbnail-small img{
+		display: block;
+		float: right;
+		margin-left: 20px;
+		margin-left: 2rem;
+		margin-bottom: 10px;
+		margin-bottom: 1rem;
+		width: 150px;
+		max-width: 50%;
+		height: auto;
+	}
 	.entry-content,
 	.entry-summary{
 	}

@@ -27,3 +27,39 @@ $layouts_strings = array(
 	'global_layout'     => _x( 'Global Layout', 'layout', 'fyeah' ),
 );
 add_theme_support( 'tamatebako-layouts', $layouts, $layouts_args, $layouts_strings );
+
+
+/* Standard Post Display Options */
+add_action( 'customize_register', 'fyeah_post_display_customizer', 11 );
+
+/**
+ * Register Customizer FOr Reading Setting
+ * Option to display standard blog post as summary + thumbnail or full text
+ */
+function fyeah_post_display_customizer( $wp_customize ){
+
+	/* Setting */
+	$wp_customize->add_setting( 'post_display', array(
+		'default'             => 'full_text',
+		'type'                => 'theme_mod',
+		'capability'          => 'edit_theme_options',
+	));
+
+	/* Radio Options */
+	$wp_customize->add_control(
+		new WP_Customize_Control(
+			$wp_customize,
+			'post_display',
+			array(
+				'label'          => _x( 'For standard post in archive, show', 'customizer', 'fyeah' ),
+				'section'        => 'layout',
+				'settings'       => 'post_display',
+				'type'           => 'radio',
+				'choices'        => array(
+					'full_text'   => _x( 'Full Text', 'customizer', 'fyeah' ),
+					'summary'  => _x( 'Summary', 'customizer', 'fyeah' ),
+				)
+			)
+		)
+	);
+}

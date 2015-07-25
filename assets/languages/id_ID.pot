@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Theme\n"
 "Report-Msgid-Bugs-To: http://genbu.me/contact/\n"
-"POT-Creation-Date: 2015-07-25 06:26+0700\n"
-"PO-Revision-Date: 2015-07-25 06:27+0700\n"
+"POT-Creation-Date: 2015-07-25 11:24+0700\n"
+"PO-Revision-Date: 2015-07-25 11:26+0700\n"
 "Last-Translator: David Chandra Purnama <david@shellcreeper.com>\n"
 "Language-Team: \n"
 "Language: id_ID\n"
@@ -61,6 +61,21 @@ msgstr "Layout"
 msgctxt "layout"
 msgid "Global Layout"
 msgstr "Layout Global"
+
+#: includes/layouts.php:54
+msgctxt "customizer"
+msgid "For standard post in archive, show"
+msgstr "Untuk pos standar di halaman archive, tampilkan"
+
+#: includes/layouts.php:59
+msgctxt "customizer"
+msgid "Full Text"
+msgstr "Text Penuh"
+
+#: includes/layouts.php:60
+msgctxt "customizer"
+msgid "Summary"
+msgstr "Ringkasan"
 
 #: includes/logo.php:13
 msgctxt "customizer"
