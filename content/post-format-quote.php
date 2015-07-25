@@ -29,3 +29,8 @@
 	</div><!-- .entry-wrap -->
 
 </article><!-- .entry -->
+
+<?php if( is_singular() ){ ?>
+	<?php tamatebako_entry_nav(); ?>
+	<?php comments_template( '', true ); // Load comments. ?>
+<?php } ?>

@@ -4,7 +4,7 @@
 
 		<?php if( is_singular() ){?>
 		<div class="entry-header">
-			<?php the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' ); ?>
+			<?php the_title( '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' ); ?>
 		</div><!-- .entry-header -->
 		<?php } ?>
 
@@ -21,11 +21,16 @@
 				<a title="<?php the_title_attribute(); ?>" href="<?php the_permalink();?>"><time class="entry-published updated" datetime="<?php echo get_the_time( 'Y-m-d\TH:i:sP' ); ?>"><?php echo get_the_date(); ?></time></a>
 			</div><!-- .entry-byline -->
 			<?php if( is_singular() ){?>
-				<?php edit_post_link(); ?>
 				<?php tamatebako_entry_terms(); ?>
+				<?php edit_post_link(); ?>
 			<?php } ?>
 		</div><!-- .entry-footer -->
 
 	</div><!-- .entry-wrap -->
 
 </article><!-- .entry -->
+
+<?php if( is_singular() ){ ?>
+	<?php tamatebako_entry_nav(); ?>
+	<?php comments_template( '', true ); // Load comments. ?>
+<?php } ?>
