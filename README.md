@@ -3,6 +3,11 @@ Responsive theme with post formats, two layouts, header image, logo upload, back
 
 ### Changelog
 
+**1.1.1 - 25.07.2015**
+
+* Fix Logo CSS
+* PHP 5.2 Compat.
+
 **1.1.0 - 25.07.2015**
 
 * Change screenshot

@@ -192,6 +192,9 @@ body.admin-bar #menu-primary{
 	top: 230px;
 	width: 300px;
 }
+	.admin-bar #header{
+		top: 260px;
+	}
 	#branding{
 		
 	}
