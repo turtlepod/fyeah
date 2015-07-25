@@ -3,9 +3,9 @@
 	<div class="entry-wrap">
 
 		<?php if( is_singular() ){?>
-		<div class="entry-header">
-			<?php the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' ); ?>
-		</div><!-- .entry-header -->
+			<div class="entry-header">
+				<?php tamatebako_entry_title(); ?>
+			</div><!-- .entry-header -->
 		<?php } ?>
 
 		<div class="entry-content">

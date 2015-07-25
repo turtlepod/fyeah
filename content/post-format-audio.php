@@ -4,8 +4,7 @@
 
 		<div class="entry-header">
 
-			<?php $tag = is_singular() ? 'h1' : 'h2'?>
-			<?php the_title( '<' . $tag . ' class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></' . $tag . '>' ); ?>
+			<?php tamatebako_entry_title(); ?>
 
 			<div class="entry-byline">
 
