@@ -625,6 +625,53 @@ body.admin-bar #menu-primary{
 	content:".";display:block;height:0;clear:both;visibility:hidden;
 }
 
+/* === POST FORMAT === */
+
+/* Chat */
+.chat-transcript{
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
+}
+.chat-row{
+	padding: 10px 0;
+	padding: 1rem 0;
+}
+.chat-author{
+	display: inline-block;
+}
+.chat-text{
+	display: inline;
+	vertical-align: top;
+}
+.chat-text > p{
+	display: inline;
+	margin: 0;
+}
+.chat-author-hide{
+	opacity: 0;
+}
+/* Chat Speaker Color */
+.chat-speaker-1 .chat-author{ color: red; }
+.chat-speaker-2 .chat-author{ color: black; }
+.chat-speaker-3 .chat-author{ color: yellowgreen; }
+.chat-speaker-4 .chat-author{ color: blueviolet; }
+.chat-speaker-5 .chat-author{ color: brown; }
+.chat-speaker-6 .chat-author{ color: cadetblue; }
+.chat-speaker-7 .chat-author{ color: chocolate; }
+.chat-speaker-8 .chat-author{ color: coral; }
+.chat-speaker-9 .chat-author{ color: crimson; }
+.chat-speaker-10 .chat-author{ color: cornflowerblue; }
+.chat-speaker-11 .chat-author{ color: darkgreen; }
+.chat-speaker-12 .chat-author{ color: darkblue; }
+.chat-speaker-13 .chat-author{ color: darkcyan; }
+.chat-speaker-14 .chat-author{ color: darkmagenta; }
+.chat-speaker-15 .chat-author{ color: darkolivegreen; }
+.chat-speaker-16 .chat-author{ color: darkorange; }
+.chat-speaker-17 .chat-author{ color: darkorchid; }
+.chat-speaker-18 .chat-author{ color: darkred; }
+.chat-speaker-19 .chat-author{ color: darksalmon; }
+.chat-speaker-20 .chat-author{ color: darkslategrey; }
+
 
 /* === POST NAV: Next Post Link, Prev Post Link === */
 .post-navigation{
