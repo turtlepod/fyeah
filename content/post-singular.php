@@ -10,7 +10,7 @@
 
 				<span class="entry-author"><?php the_author_posts_link(); ?></span>
 
-				<?php comments_popup_link( number_format_i18n( 0 ), number_format_i18n( 1 ), '%', 'comments-link', '' ); ?>
+				<?php tamatebako_comments_link(); ?>
 
 				<time class="entry-published updated" datetime="<?php echo get_the_time( 'Y-m-d\TH:i:sP' ); ?>"><?php echo get_the_date(); ?></time>
 

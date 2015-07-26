@@ -78,10 +78,20 @@
 	}
 	.social-links a{
 		float: none;
+		margin-right: 2.5px;
+		margin-left: 2.5px;
 	}
 	/* Archive Title */
 	.archive-title{
 		color: #444;
+	}
+	/* Center Pagination */
+	.navigation.pagination{
+		text-align: center;
+	}
+	/* Center Footer */
+	#footer{
+		text-align: center;
 	}
 }
 
@@ -156,25 +166,6 @@
 	.entry-content .alignleft,
 	.entry-content .alignright{
 		max-width: 50%;
-	}
-}
-
-
-/* === LOOP-NAV === */
-@media screen and (max-width: 920px) {
-	.loop-nav .prev{
-		width: 100%;
-	}
-	.loop-nav .next{
-		width: 100%;
-		padding-right: 0;
-		padding-left: 30px;
-		padding-left: 3rem;
-		text-align: left;
-	}
-	.loop-nav .next a:after{
-		right: auto;
-		left: 0;
 	}
 }
 

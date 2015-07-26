@@ -8,6 +8,7 @@ Responsive theme with post formats, two layouts, header image, logo upload, back
 * PHP 5.2 Compat.
 * Add post display option.
 * Bug Fix
+* Better Post Formats Design + responsive.
 
 **1.1.0 - 25.07.2015**
 
