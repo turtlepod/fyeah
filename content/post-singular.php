@@ -12,7 +12,7 @@
 
 				<?php tamatebako_comments_link(); ?>
 
-				<time class="entry-published updated" datetime="<?php echo get_the_time( 'Y-m-d\TH:i:sP' ); ?>"><?php echo get_the_date(); ?></time>
+				<?php tamatebako_entry_date(); ?>
 
 			</div><!-- .entry-byline -->
 

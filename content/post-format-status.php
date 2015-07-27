@@ -11,7 +11,7 @@
 		<div class="entry-byline">
 			<?php echo get_avatar( get_the_author_meta( 'email' ) ); ?>
 			<span class="entry-author"><?php the_author_posts_link(); ?></span><br/>
-			<a title="<?php the_title_attribute(); ?>" href="<?php the_permalink();?>"><time class="entry-published updated" datetime="<?php echo get_the_time( 'Y-m-d\TH:i:sP' ); ?>"><?php echo get_the_date(); ?></time></a>
+			<?php tamatebako_entry_date(); ?>
 		</div><!-- .entry-byline -->
 
 		<div class="entry-content">

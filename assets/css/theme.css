@@ -419,6 +419,7 @@ body.admin-bar #menu-primary{
 			}
 			.entry-author{
 				margin-right: 10px;
+				display: inline-block;
 			}
 			.entry-author:before{
 				content: '\f304';
@@ -429,11 +430,13 @@ body.admin-bar #menu-primary{
 				-webkit-font-smoothing: antialiased;
 			}
 			.entry-permalink:before{
-				
 			}
-			.entry-published{
+			.entry-date{
+				display: inline-block;
 			}
-			.entry-published:before{
+			.entry-date .published{
+			}
+			.entry-date .published:before{
 				content: '\f307';
 				font-family: "genericons";
 				margin-right: 5px;
@@ -441,7 +444,11 @@ body.admin-bar #menu-primary{
 				vertical-align: top;
 				-webkit-font-smoothing: antialiased;
 			}
+			.entry-date .updated:not(.published){
+				display: none;
+			}
 			.comments-link{
+				display: inline-block;
 				margin-right: 10px;
 				margin-right: 1rem;
 			}

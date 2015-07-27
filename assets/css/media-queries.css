@@ -160,9 +160,6 @@
 
 /* === ENTRY === */
 @media screen and (max-width: 450px) {
-	.entry-byline .entry-published{
-		display: block;
-	}
 	.entry-content .alignleft,
 	.entry-content .alignright{
 		max-width: 50%;

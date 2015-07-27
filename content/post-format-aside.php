@@ -9,7 +9,7 @@
 				<div class="entry-byline">
 					<span class="entry-author"><?php the_author_posts_link(); ?></span>
 					<?php tamatebako_comments_link(); ?>
-					<time class="entry-published updated" datetime="<?php echo get_the_time( 'Y-m-d\TH:i:sP' ); ?>"><?php echo get_the_date(); ?></time>
+					<?php tamatebako_entry_date(); ?>
 				</div><!-- .entry-byline -->
 			</header><!-- .entry-header -->
 

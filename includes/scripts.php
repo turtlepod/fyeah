@@ -30,7 +30,7 @@ function fyeah_scripts(){
 	wp_enqueue_style( 'theme-pt-serif' );
 	wp_enqueue_style( 'theme-satisfy' );
 	wp_enqueue_style( 'theme-genericons' );
-	//$dev = true;
+	$dev = true;
 	if ( isset( $dev ) && $dev ){
 		wp_enqueue_style( 'theme-base' );
 		wp_enqueue_style( 'theme-menus' );
