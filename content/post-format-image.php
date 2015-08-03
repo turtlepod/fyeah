@@ -32,6 +32,7 @@
 
 </article><!-- .entry -->
 
-<?php tamatebako_entry_nav(); ?>
-
-<?php comments_template( '', true ); // Load comments. ?>
+<?php if( is_singular() ){
+	tamatebako_entry_nav();
+	comments_template( '', true ); // Load comments.
+} ?>

@@ -39,7 +39,7 @@ function fyeah_scripts(){
 		wp_enqueue_style( 'theme-comments' );
 		wp_enqueue_style( 'theme' );
 		wp_enqueue_style( 'theme-media-queries' );
-		wp_enqueue_style( 'debug-media-queries' );
+		//wp_enqueue_style( 'debug-media-queries' );
 	}
 	else{
 		tamatebako_maybe_enqueue_style( 'parent' );
@@ -73,9 +73,6 @@ $register_css_scripts = array(
 	/* Font */
 	"theme-pt-serif" => array(
 		'src'   => add_query_arg( 'family', 'PT+Serif:' . urlencode( '400,400italic,700,700italic' ), "//fonts.googleapis.com/css" ),
-	),
-	"theme-open-sans" => array(
-		'src'   => add_query_arg( 'family', 'Open+Sans:' . urlencode( '400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' ), "//fonts.googleapis.com/css" ),
 	),
 	"theme-satisfy" => array(
 		'src'   => add_query_arg( 'family', 'Satisfy', "//fonts.googleapis.com/css" ),

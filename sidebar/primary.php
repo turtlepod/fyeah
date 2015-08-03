@@ -10,8 +10,8 @@
 
 			<?php the_widget( 'WP_Widget_Text',
 				array(
-					'title' => _x( 'About FYeah', 'default widget', 'fyeah' ),
-					'text'  => _x( '<strong>FYeah</strong> is a responsive WordPress themes with Post Formats support, two layouts options, header image, logo upload, background options, and custom css features.', 'default widget', 'fyeah' ),
+					'title' => _x( 'About "fyeah"', 'default widget', 'fyeah' ),
+					'text'  => _x( 'Responsive theme with post formats, two layouts, header image, logo upload, background color, and custom css option.', 'default widget', 'fyeah' ),
 				),
 				array(
 					'before_widget' => '<section class="widget widget_text">',
