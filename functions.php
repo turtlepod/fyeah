@@ -4,7 +4,7 @@
 ** ---------------------------- */
 
 /* Load Library. */
-require_once( trailingslashit( get_template_directory() ) . 'tamatebako/tamatebako.php' );
+require_once( trailingslashit( get_template_directory() ) . 'library/tamatebako.php' );
 
 /* Load theme general setup */
 add_action( 'after_setup_theme', 'fyeah_theme_setup', 5 );
@@ -14,36 +14,44 @@ add_action( 'after_setup_theme', 'fyeah_theme_setup', 5 );
  */
 function fyeah_theme_setup(){
 
-	/* Path */
-	$theme_path = trailingslashit( get_template_directory() );
-	$includes = trailingslashit( $theme_path . 'includes' );
+	/* === MINIMUM SYSTEM REQ === */
+	$back_compat_args = array(
+		'theme_name'   => 'NokoNoko',
+		'wp_requires'  => '4.0.0',
+		'php_requires' => '5.2.4',
+	);
+	add_theme_support( 'tamatebako-back-compat', $back_compat_args );
+	if( ! tamatebako_minimum_requirement( $back_compat_args ) ) return;
 
 	/* === TRANSLATION === */
-	require_once( $includes . 'translation.php' );
+	tamatebako_include( 'translation', 'includes' );
 
 	/* === SCRIPTS === */
-	require_once( $includes . 'scripts.php' );
+	tamatebako_include( 'scripts', 'includes' );
 
 	/* === SETUP: Sidebars, Menus, Image Sizes, Content Width === */
-	require_once( $includes . 'setup.php' );
+	tamatebako_include( 'setup', 'includes' );
 
 	/* === LAYOUTS === */
-	require_once( $includes . 'layouts.php' );
+	tamatebako_include( 'layouts', 'includes' );
+
+	/* === BACKGROUND === */
+	tamatebako_include( 'background', 'includes' );
 
 	/* === HEADER IMAGE === */
-	require_once( $includes . 'header-image.php' );
+	tamatebako_include( 'header-image', 'includes' );
 
 	/* === LOGO === */
-	require_once( $includes . 'logo.php' );
+	tamatebako_include( 'logo', 'includes' );
 
 	/* === UTILITY: Mobile View, Custom CSS === */
-	require_once( $includes . 'utility.php' );
+	tamatebako_include( 'utility', 'includes' );
 
 	/* === POST FORMATS === */
-	require_once( $includes . 'post-formats.php' );
+	tamatebako_include( 'post-formats', 'includes' );
 
 	/* === COLOR OPTIONS === */
-	require_once( $includes . 'color.php' );
+	tamatebako_include( 'color', 'includes' );
 }
 
 do_action( 'tamatebako_after_setup' );

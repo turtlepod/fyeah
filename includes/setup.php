@@ -3,6 +3,13 @@
  * Setup Theme Elements
 **/
 
+/* === Maximum Content Width === */
+
+global $content_width;
+if ( ! isset( $content_width ) ){
+	$content_width = 500;
+}
+
 /* === Register Sidebars === */
 
 $sidebars_args = array(
@@ -14,20 +21,8 @@ add_theme_support( 'tamatebako-sidebars', $sidebars_args );
 /* === Register Menus === */
 
 $nav_menus_args = array(
-	"primary" => _x( 'Navigation', 'nav menu name', 'fyeah' ),
+	"primary"      => _x( 'Navigation', 'nav menu name', 'fyeah' ),
 	"social-links" => _x( 'Social Links', 'nav menu name', 'fyeah' ),
 	"footer-links" => _x( 'Footer Links', 'nav menu name', 'fyeah' ),
 );
 register_nav_menus( $nav_menus_args );
-
-
-/* === Maximum Content Width === */
-
-$GLOBALS['content_width'] = 500;
-
-
-/* === Thumbnail Size === */
-
-//add_image_size( 'theme-thumbnail', 300, 200, true );
-set_post_thumbnail_size( 500, 9999, false );
-
