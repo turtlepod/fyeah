@@ -22,7 +22,7 @@
 		<footer class="entry-footer">
 			<?php tamatebako_comments_link(); ?>
 			<?php if( is_singular() ){?>
-				<?php tamatebako_entry_terms(); ?>
+				<?php tamatebako_entry_taxonomies(); ?>
 				<?php edit_post_link(); ?>
 			<?php } ?>
 		</footer><!-- .entry-footer -->

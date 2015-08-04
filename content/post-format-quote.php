@@ -20,7 +20,7 @@
 
 			<footer class="entry-footer">
 				<?php edit_post_link(); ?>
-				<?php tamatebako_entry_terms(); ?>
+				<?php tamatebako_entry_taxonomies(); ?>
 			</footer><!-- .entry-footer -->
 
 		<?php } else { /* not singular */ ?>
