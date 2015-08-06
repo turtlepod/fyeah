@@ -27,7 +27,7 @@ function fyeah_scripts(){
 
 	/* == CSS == */
 	wp_enqueue_style( 'theme-genericons' );
-	$dev = true;
+	//$dev = true;
 	if ( isset( $dev ) && $dev ){
 		wp_enqueue_style( 'theme-base' );
 		wp_enqueue_style( 'theme-menus' );
@@ -36,7 +36,7 @@ function fyeah_scripts(){
 		wp_enqueue_style( 'theme-comments' );
 		wp_enqueue_style( 'theme' );
 		wp_enqueue_style( 'theme-media-queries' );
-		//wp_enqueue_style( 'debug-media-queries' );
+		wp_enqueue_style( 'debug-media-queries' );
 	}
 	else{
 		tamatebako_maybe_enqueue_style( 'parent' );

@@ -139,7 +139,7 @@ jQuery( document ).ready( function($) {
 	});
 
 	/* Close Sidebar */
-	$('#sidebar-primary-wrap').click( function(e) {
+	$('#sidebar-primary').click( function(e) {
 		if( e.target !== this ){
 			return;
 		}

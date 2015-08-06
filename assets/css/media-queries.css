@@ -31,7 +31,7 @@
 		left: 0;
 		right: 0;
 	}
-	.wordpress .header-image-wrap{
+	.wordpress .header-image-container{
 		height: 200px;
 		width: 100%;
 		position: absolute;
@@ -40,11 +40,11 @@
 	.wordpress #container{
 		width: 560px;
 	}
-	.wordpress .main-wrap{
+	.wordpress #main > .wrap{
 		margin-right: 0;
 		margin-left: 0;
 	}
-	.wordpress #header-wrap{
+	.wordpress #header{
 		margin-right: 0;
 		margin-left: 0;
 		float: left;
@@ -58,13 +58,13 @@
 		margin-bottom: 30px;
 		margin-bottom: 3rem;
 	}
-	.wordpress #header{
+	.wordpress #header > .wrap{
 		position: inherit;
 		top: auto;
 		margin-top: 150px;
 		width: 100%;
 	}
-	.wordpress.logo-uploaded #header{
+	.wordpress.logo-uploaded #header > .wrap{
 		margin-top: 40px;
 	}
 	.wordpress #content{
@@ -143,18 +143,13 @@
 
 /* === ADMIN BAR FIX === */
 @media screen and ( max-width: 782px ) {
-	body.admin-bar #sidebar-primary{
+	body.admin-bar #sidebar-primary > .sidebar{
 		padding-top: 46px;
 	}
 }
 @media screen and (max-width: 600px) {
-	body.admin-bar #sidebar-primary{
+	body.admin-bar #sidebar-primary > .sidebar{
 		padding-top: 46px;
-	}
-	body.admin-bar.sidebar-toggle-active{
-		overflow: hidden;
-		position: fixed;
-		top: 0;
 	}
 }
 

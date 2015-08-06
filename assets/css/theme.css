@@ -65,13 +65,13 @@ code{
 }
 
 /* === HEADER IMAGE === */
-.header-image-wrap{
+.header-image-container{
 	height: 200px;
 	width: 100%;
 	position: fixed;
 	background: #001f33;
 }
-.header-image-wrap:after{
+.header-image-container:after{
 	content:".";display:block;height:0;clear:both;visibility:hidden;
 }
 .header-image{
@@ -187,12 +187,12 @@ body.admin-bar #menu-primary{
 }
 
 /* === HEADER === */
-#header{
+#header > .wrap{
 	position: fixed;
 	top: 230px;
 	width: 300px;
 }
-	.admin-bar #header{
+	.admin-bar #header > .wrap{
 		top: 260px;
 	}
 	#branding{
@@ -232,10 +232,10 @@ body.admin-bar #menu-primary{
 	}
 	.logo-uploaded{
 	}
-	.logo-uploaded #header{
+	.logo-uploaded #header > .wrap{
 		top: 120px;
 	}
-	.admin-bar.logo-uploaded #header{
+	.admin-bar.logo-uploaded #header > .wrap{
 		top: 150px;
 	}
 	#site-logo{
@@ -318,13 +318,13 @@ body.admin-bar #menu-primary{
 
 
 /* === MAIN === */
-#main{
+#container > .wrap{
 	background: transparent;
 }
-#main:after{
+#container > .wrap:after{
 	content:".";display:block;height:0;clear:both;visibility:hidden;
 }
-	.main-wrap:after{
+	#main > .wrap:after{
 		content:".";display:block;height:0;clear:both;visibility:hidden;
 	}
 
@@ -365,7 +365,7 @@ body.admin-bar #menu-primary{
 	content:".";display:block;height:0;clear:both;visibility:hidden;
 }
 /* Entry Wrap */
-.entry-wrap{
+.entry > .wrap{
 }
 	/* Entry Header */
 	.entry-header{
@@ -850,11 +850,11 @@ body.admin-bar #menu-primary{
 
 /* === Sidebar === */
 
-#sidebar-primary-wrap {
+#sidebar-primary {
 	background: transparent;
 	transition: all 0.4s ease-in-out 0s;
 }
-#sidebar-primary{
+#sidebar-primary > .sidebar{
 	background: #2d302e;
 	position: fixed;
 	overflow-y: scroll;
@@ -868,11 +868,11 @@ body.admin-bar #menu-primary{
 	transition: all 0.4s ease-in-out 0s;
 	z-index: 99999;
 }
-body.admin-bar #sidebar-primary{
+body.admin-bar #sidebar-primary > .sidebar{
 	padding-top: 32px;
 }
 /* turn off the lights! */
-body.sidebar-toggle-active #sidebar-primary-wrap {
+body.sidebar-toggle-active #sidebar-primary {
 	width: 100%;
 	position: fixed;
 	background: rgba(0,0,0,0.5);
@@ -883,7 +883,7 @@ body.sidebar-toggle-active #sidebar-primary-wrap {
 	transition: all 0.4s ease-in-out 0s;
 }
 /* Open  */
-body.sidebar-toggle-active #sidebar-primary{
+body.sidebar-toggle-active #sidebar-primary > .sidebar{
 	margin-right: 0;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	transition: all 0.4s ease-in-out 0s;

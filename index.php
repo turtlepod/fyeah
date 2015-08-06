@@ -9,7 +9,7 @@
 
 	<?php echo tamatebako_check_js_script(); ?>
 
-	<div class="header-image-wrap">
+	<div class="header-image-container">
 		<?php if ( current_theme_supports( 'custom-header' ) && get_header_image() ) { /* Custom Header */ ?>
 			<div class="header-image" style="background-image: url( '<?php header_image(); ?>' )"></div>
 		<?php } /* end custom header */ ?>
@@ -21,11 +21,11 @@
 
 		<?php tamatebako_skip_to_content(); ?>
 
-		<div id="main">
+		<div class="wrap">
 
-			<div class="main-inner">
+			<div id="main">
 
-				<div class="main-wrap">
+				<div class="wrap">
 
 					<?php get_header(); ?>
 
@@ -35,7 +35,7 @@
 
 							<?php tamatebako_archive_header(); ?>
 
-							<div class="content-entry-wrap">
+							<div class="wrap">
 
 								<?php while ( have_posts() ) {  /* Start Loop */ ?>
 
@@ -47,13 +47,15 @@
 
 								<?php } /* End Loop */ ?>
 
-							</div><!-- .content-entry-wrap-->
+							</div><!-- #content > .wrap -->
 
 							<?php tamatebako_archive_footer(); ?>
 
 						<?php } else { /* No Posts Found */ ?>
 
-							<?php tamatebako_content_error(); ?>
+							<div class="wrap">
+								<?php tamatebako_content_error(); ?>
+							</div><!-- #content > .wrap -->
 
 						<?php } /* End Posts Found Check */ ?>
 
@@ -63,11 +65,11 @@
 
 					<?php tamatebako_get_sidebar( 'primary' ); ?>
 
-				</div><!-- .main-wrap -->
+				</div><!-- #main > wrap -->
 
-			</div><!-- .main-inner -->
+			</div><!-- #main -->
 
-		</div><!-- #main -->
+		</div><!-- #container > .wrap -->
 
 	</div><!-- #container -->
 
