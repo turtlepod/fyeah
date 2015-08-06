@@ -3,6 +3,19 @@
  * Scripts Setup
 **/
 
+/* === BODY CLASSES === */
+
+add_filter( 'body_class', 'fyeah_scripts_body_class' );
+
+/**
+ * Scripts Body Class Helper
+ */
+function fyeah_scripts_body_class( $classes ){
+	$classes[] = 'theme-genericons-active';
+	return $classes;
+}
+
+
 /* === EDITOR STYLE === */
 
 $editor_css = array(

@@ -27,6 +27,7 @@
 				}
 				.comments-nav .prev-comments:before{
 					content: '\f430';
+					color: #444;
 					font-family: "genericons";
 					vertical-align: top;
 					-webkit-font-smoothing: antialiased;
@@ -37,6 +38,7 @@
 				}
 				.comments-nav .next-comments:after{
 					content: '\f429';
+					color: #444;
 					font-family: "genericons";
 					vertical-align: top;
 					-webkit-font-smoothing: antialiased;
@@ -109,13 +111,22 @@
 					.comment-permalink{
 						color: #444;
 					}
+					.comment-permalink:hover,
+					.comment-permalink:focus{
+						color: #666;
+					}
 					.comment-edit-link{
 						color: #444;
 					}
-					.comment-edit-link:after{
+					.comment-edit-link:hover,
+					.comment-edit-link:focus{
+						color: #666;
+					}
+					.comment-edit-link:before{
 						content: '\f411';
 						font-family: "genericons";
 						vertical-align: top;
+						margin-right: 5px;
 						-webkit-font-smoothing: antialiased;
 					}
 				.comment-content{
@@ -141,10 +152,10 @@
 				border: none;
 				padding: 0;
 				margin: 0;
-				color:#999;
+				color:#444;
 			}
 				.pingback .comment-author{
-					font-weight: 400;
+					font-weight: 600;
 				}
 					.pingback .comment-author a{
 						color: #444;
@@ -154,7 +165,7 @@
 						color: #666;
 					}
 				.pingback .comment-published{
-					color: #999;
+					
 				}
 				.pingback .comment-permalink{
 				}
