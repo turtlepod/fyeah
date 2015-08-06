@@ -596,18 +596,18 @@ body.admin-bar #menu-primary{
 		.post-edit-link:after{
 			content:".";display:block;height:0;clear:both;visibility:hidden;
 		}
-		.entry-meta{
+		.entry-taxonomies{
 		}
-			.entry-meta .entry-terms{
+			.entry-taxonomies .entry-terms{
 				margin-right: 10px;
 				margin-right: 1rem;
 				display: inline-block;
 			}
-			.entry-meta .entry-terms a{
+			.entry-taxonomies .entry-terms a{
 				color: #444;
 			}
-			.entry-meta .entry-terms a:hover,
-			.entry-meta .entry-terms a:focus{
+			.entry-taxonomies .entry-terms a:hover,
+			.entry-taxonomies .entry-terms a:focus{
 				color: #666;
 			}
 				.entry-terms.category .term-name,
