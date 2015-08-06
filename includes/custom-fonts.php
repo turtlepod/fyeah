@@ -18,7 +18,7 @@ $fonts_config = array(
 		'default' => 'Satisfy',
 	),
 	'base_font' => array(
-		'label' => _x( 'Base Font', 'customizer', 'nokonoko' ),
+		'label' => _x( 'Base Font', 'customizer', 'fyeah' ),
 		'target' => 'body.wordpress,body#tinymce',
 		'fonts' => array( 'websafe', 'base' ),
 		'default' => 'PT Serif',
