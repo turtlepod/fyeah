@@ -295,7 +295,7 @@ body.admin-bar #menu-primary{
 .social-links a[href*="flickr.com"]:before { content: '\f211'; }
 .social-links a[href*="foursquare.com"]:before { content: '\f226'; }
 .social-links a[href*="github.com"]:before { content: '\f200'; }
-.social-links a[href*="plus.google.com"]:before { content: '\f206'; }
+.social-links a[href*="plus.google.com"]:before { content: '\f218'; }
 .social-links a[href*="instagram.com"]:before { content: '\f215'; }
 .social-links a[href*="linkedin.com"]:before { content: '\f208'; }
 .social-links a[href*="pinterest.com"]:before { content: '\f210'; }
@@ -312,9 +312,22 @@ body.admin-bar #menu-primary{
 .social-links a[href*="wordpress.com"]:before { content: '\f205';}
 .social-links a[href*="youtube.com"]:before { content: '\f213';}
 .social-links a[href*="mailto:"]:before { content: '\f410';}
-.social-links .mail-icon a:before { content: '\f410';}
+.social-links a[href*="tel:"]:before { content: '\f437';}
 .social-links a[href$="/feed/"]:before { content: '\f413';}
+.social-links .mail-icon a:before { content: '\f410';}
+.social-links .phone-icon a:before { content: '\f437';}
 .social-links .feed-icon a:before { content: '\f413';}
+.social-links .user-icon a:before { content: '\f304';}
+.social-links .cart-icon a:before { content: '\f447';}
+.social-links .heart-icon a:before { content: '\f461';}
+.social-links .calendar-icon a:before { content: '\f307';}
+.social-links .website-icon a:before { content: '\f475';}
+.social-links .portfolio-icon a:before { content: '\f460';}
+.social-links .share-icon a:before { content: '\f415';}
+.social-links .home-icon a:before { content: '\f409';}
+.social-links .info-icon a:before { content: '\f455';}
+.social-links .notice-icon a:before { content: '\f456';}
+.social-links .help-icon a:before { content: '\f457';}
 
 
 /* === MAIN === */
