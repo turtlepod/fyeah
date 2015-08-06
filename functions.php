@@ -26,6 +26,9 @@ function fyeah_theme_setup(){
 	/* === TRANSLATION === */
 	tamatebako_include( 'translation', 'includes' );
 
+	/* === CUSTOM FONTS === */
+	tamatebako_include( 'custom-fonts', 'includes' );
+
 	/* === SCRIPTS === */
 	tamatebako_include( 'scripts', 'includes' );
 
