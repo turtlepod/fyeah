@@ -4,6 +4,7 @@
  * Google fonts also enqueued using this feature.
 **/
 
+/* Customizer setting configuration */
 $fonts_config = array(
 	'site_title_font' => array(
 		'label' => _x( 'Site Title Font', 'customizer', 'fyeah' ),
@@ -25,24 +26,23 @@ $fonts_config = array(
 	),
 );
 
+/* Additional settings for custom font features */
 $fonts_settings = array(
 	'editor_styles' => array(
 		'base_font',
 	),
-	'subsets_settings' => array(
-		/**
-		 * Translators: to add an additional font character subset specific to your language
-		 * translate this to 'greek', 'cyrillic', or 'vietnamese'. Do not translate into your own language.
-		 * Note: availability of the subset depends on fonts selected.
-		 */
-		'font_subset' => _x( 'no-subset', 'Google Font Subset: add new subset( greek, cyrillic, vietnamese )', 'nokonoko' ),
-	),
+	/**
+	 * Translators: to add an additional font character subset specific to your language
+	 * translate this to 'greek', 'cyrillic', or 'vietnamese'. Do not translate into your own language.
+	 * Note: availability of the subset depends on fonts selected.
+	 */
+	'font_subset' => _x( 'no-subset', 'Google Font Subset: add new subset( greek, cyrillic, vietnamese )', 'fyeah' ),
 );
 
+/* Additional strings used in custom font feature. */
 $fonts_strings = array(
 	'fonts' => _x( 'Fonts', 'customizer', 'fyeah' ),
 );
 
 add_theme_support( 'tamatebako-custom-fonts', $fonts_config, $fonts_settings, $fonts_strings );
-
 

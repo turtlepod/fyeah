@@ -16,7 +16,7 @@ function fyeah_theme_setup(){
 
 	/* === MINIMUM SYSTEM REQ === */
 	$back_compat_args = array(
-		'theme_name'   => 'NokoNoko',
+		'theme_name'   => 'fyeah',
 		'wp_requires'  => '4.0.0',
 		'php_requires' => '5.2.4',
 	);

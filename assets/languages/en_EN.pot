@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Theme\n"
 "Report-Msgid-Bugs-To: http://genbu.me/contact/\n"
-"POT-Creation-Date: 2015-08-06 12:24+0700\n"
-"PO-Revision-Date: 2015-08-06 12:24+0700\n"
+"POT-Creation-Date: 2015-08-07 16:51+0700\n"
+"PO-Revision-Date: 2015-08-07 16:51+0700\n"
 "Last-Translator: David Chandra Purnama <david@shellcreeper.com>\n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -37,22 +37,27 @@ msgctxt "customizer"
 msgid "Link Hover Color"
 msgstr ""
 
-#: includes/custom-fonts.php:9
+#: includes/custom-fonts.php:10
 msgctxt "customizer"
 msgid "Site Title Font"
 msgstr ""
 
-#: includes/custom-fonts.php:15
+#: includes/custom-fonts.php:16
 msgctxt "customizer"
 msgid "Post Title Font"
 msgstr ""
 
-#: includes/custom-fonts.php:21
+#: includes/custom-fonts.php:22
 msgctxt "customizer"
 msgid "Base Font"
 msgstr ""
 
-#: includes/custom-fonts.php:35
+#: includes/custom-fonts.php:39
+msgctxt "Google Font Subset: add new subset( greek, cyrillic, vietnamese )"
+msgid "no-subset"
+msgstr ""
+
+#: includes/custom-fonts.php:44
 msgctxt "customizer"
 msgid "Fonts"
 msgstr ""
