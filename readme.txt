@@ -101,7 +101,7 @@ Social networks that aren't currently supported will be indicated by a generic s
 
 == Changelog ==
 
-= 1.2.0 - 06.08.2015 =
+= 1.2.0 - 08.08.2015 =
 
 * Custom Fonts.
 * Restructure HTML.
