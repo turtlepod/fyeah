@@ -18,7 +18,7 @@ function fyeah_color_customizer( $wp_customize ){
 		'default'             => '#ecf0f1',
 		'type'                => 'theme_mod',
 		'capability'          => 'edit_theme_options',
-		'sanitize_callback'   => 'sanitize_hex_color_no_hash',
+		'sanitize_callback'   => 'tamatebako_sanitize_hex_color',
 	));
 
 	/* Add in color section */
@@ -42,7 +42,7 @@ function fyeah_color_customizer( $wp_customize ){
 		'default'             => '#0073aa',
 		'type'                => 'theme_mod',
 		'capability'          => 'edit_theme_options',
-		'sanitize_callback'   => 'sanitize_hex_color_no_hash',
+		'sanitize_callback'   => 'tamatebako_sanitize_hex_color',
 	));
 
 	/* Add in color section */
@@ -66,7 +66,7 @@ function fyeah_color_customizer( $wp_customize ){
 		'default'             => '#00a0d2',
 		'type'                => 'theme_mod',
 		'capability'          => 'edit_theme_options',
-		'sanitize_callback'   => 'sanitize_hex_color_no_hash',
+		'sanitize_callback'   => 'tamatebako_sanitize_hex_color',
 	));
 
 	/* Add in color section */

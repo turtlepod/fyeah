@@ -43,6 +43,7 @@ function fyeah_post_display_customizer( $wp_customize ){
 		'default'             => 'full_text',
 		'type'                => 'theme_mod',
 		'capability'          => 'edit_theme_options',
+		'sanitize_callback'   => 'fyeah_sanitize_post_display',
 	));
 
 	/* Radio Options */
@@ -62,4 +63,15 @@ function fyeah_post_display_customizer( $wp_customize ){
 			)
 		)
 	);
+}
+
+/**
+ * Sanitize Post Display Choices
+ */
+function fyeah_sanitize_post_display( $input ){
+	$choices = array( 'full_text', 'summary' );
+	if( in_array( $input, $choices ) ){
+		return $input;
+	}
+	return '';
 }

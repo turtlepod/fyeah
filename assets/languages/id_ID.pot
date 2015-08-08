@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Theme\n"
 "Report-Msgid-Bugs-To: http://genbu.me/contact/\n"
-"POT-Creation-Date: 2015-07-25 11:24+0700\n"
-"PO-Revision-Date: 2015-07-25 11:26+0700\n"
+"POT-Creation-Date: 2015-08-07 16:52+0700\n"
+"PO-Revision-Date: 2015-08-07 16:52+0700\n"
 "Last-Translator: David Chandra Purnama <david@shellcreeper.com>\n"
 "Language-Team: \n"
 "Language: id_ID\n"
@@ -37,6 +37,31 @@ msgctxt "customizer"
 msgid "Link Hover Color"
 msgstr "Warna Tautan (Hover)"
 
+#: includes/custom-fonts.php:10
+msgctxt "customizer"
+msgid "Site Title Font"
+msgstr "Font Judul Situs"
+
+#: includes/custom-fonts.php:16
+msgctxt "customizer"
+msgid "Post Title Font"
+msgstr "Font Judul Tulisan"
+
+#: includes/custom-fonts.php:22
+msgctxt "customizer"
+msgid "Base Font"
+msgstr "Font Dasar"
+
+#: includes/custom-fonts.php:39
+msgctxt "Google Font Subset: add new subset( greek, cyrillic, vietnamese )"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: includes/custom-fonts.php:44
+msgctxt "customizer"
+msgid "Fonts"
+msgstr "Font"
+
 #: includes/layouts.php:9
 msgctxt "layout name"
 msgid "Header | Content"
@@ -62,17 +87,17 @@ msgctxt "layout"
 msgid "Global Layout"
 msgstr "Layout Global"
 
-#: includes/layouts.php:54
+#: includes/layouts.php:55
 msgctxt "customizer"
 msgid "For standard post in archive, show"
 msgstr "Untuk pos standar di halaman archive, tampilkan"
 
-#: includes/layouts.php:59
+#: includes/layouts.php:60
 msgctxt "customizer"
 msgid "Full Text"
 msgstr "Text Penuh"
 
-#: includes/layouts.php:60
+#: includes/layouts.php:61
 msgctxt "customizer"
 msgid "Summary"
 msgstr "Ringkasan"
@@ -91,22 +116,22 @@ msgstr ""
 "Ukuran logo yang direkomendasikan adalah lebar 300px dan panjang 300px. Logo "
 "akan ditampilkan dalam bentuk lingkaran dengan border."
 
-#: includes/setup.php:9
+#: includes/setup.php:16
 msgctxt "sidebar name"
 msgid "Sidebar"
 msgstr "Sidebar"
 
-#: includes/setup.php:17
+#: includes/setup.php:24
 msgctxt "nav menu name"
 msgid "Navigation"
 msgstr "Navigasi"
 
-#: includes/setup.php:18
+#: includes/setup.php:25
 msgctxt "nav menu name"
 msgid "Social Links"
 msgstr "Tautan Social"
 
-#: includes/setup.php:19
+#: includes/setup.php:26
 msgctxt "nav menu name"
 msgid "Footer Links"
 msgstr "Tautan Kaki Halaman"

@@ -1,6 +1,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<div class="entry-wrap">
+	<div class="wrap">
 
 		<?php if( is_singular() ){?>
 
@@ -20,7 +20,7 @@
 
 			<footer class="entry-footer">
 				<?php edit_post_link(); ?>
-				<?php tamatebako_entry_terms(); ?>
+				<?php tamatebako_entry_taxonomies(); ?>
 			</footer><!-- .entry-footer -->
 
 		<?php } else { /* not singular */ ?>
@@ -36,7 +36,7 @@
 
 		<?php } /* end singular conditional */ ?>
 
-	</div><!-- .entry-wrap -->
+	</div><!-- .entry > .wrap -->
 
 </article><!-- .entry -->
 

@@ -3,10 +3,22 @@
  * Scripts Setup
 **/
 
+/* === BODY CLASSES === */
+
+add_filter( 'body_class', 'fyeah_scripts_body_class' );
+
+/**
+ * Scripts Body Class Helper
+ */
+function fyeah_scripts_body_class( $classes ){
+	$classes[] = 'theme-genericons-active';
+	return $classes;
+}
+
+
 /* === EDITOR STYLE === */
 
 $editor_css = array(
-	add_query_arg( 'family', 'PT+Serif:' . urlencode( '400,400italic,700,700italic' ), "//fonts.googleapis.com/css" ),
 	'assets/css/base.min.css',
 	'assets/css/editor.css',
 );
@@ -27,8 +39,6 @@ function fyeah_scripts(){
 	wp_enqueue_script( 'theme-js' );
 
 	/* == CSS == */
-	wp_enqueue_style( 'theme-pt-serif' );
-	wp_enqueue_style( 'theme-satisfy' );
 	wp_enqueue_style( 'theme-genericons' );
 	//$dev = true;
 	if ( isset( $dev ) && $dev ){
@@ -39,7 +49,7 @@ function fyeah_scripts(){
 		wp_enqueue_style( 'theme-comments' );
 		wp_enqueue_style( 'theme' );
 		wp_enqueue_style( 'theme-media-queries' );
-		//wp_enqueue_style( 'debug-media-queries' );
+		wp_enqueue_style( 'debug-media-queries' );
 	}
 	else{
 		tamatebako_maybe_enqueue_style( 'parent' );
@@ -70,13 +80,7 @@ add_theme_support( 'tamatebako-register-js', $register_js_scripts );
 /* === REGISTER CSS === */
 
 $register_css_scripts = array(
-	/* Font */
-	"theme-pt-serif" => array(
-		'src'   => add_query_arg( 'family', 'PT+Serif:' . urlencode( '400,400italic,700,700italic' ), "//fonts.googleapis.com/css" ),
-	),
-	"theme-satisfy" => array(
-		'src'   => add_query_arg( 'family', 'Satisfy', "//fonts.googleapis.com/css" ),
-	),
+
 	/* Icon */
 	"theme-genericons" => array(
 		'src'   => tamatebako_theme_file( 'assets/fonts/genericons/genericons', 'css' ),

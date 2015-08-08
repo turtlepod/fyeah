@@ -63,7 +63,7 @@ if ( !is_admin() ) {
 	tamatebako_include( 'functions/template/comment' );
 
 	/* Load front-end utility functions for faster development ( min PHP 5.3 ) */
-	if ( version_compare( PHP_VERSION, '5.3.0' ) >= 0 ) {
+	if ( version_compare( PHP_VERSION, '5.3.0', '>=' ) ) {
 		tamatebako_include( 'functions/template/utility' );
 	}
 }
@@ -78,6 +78,10 @@ add_action( 'after_setup_theme', 'tamatebako_load_theme_support', 15 );
  * @since 3.0.0
  */
 function tamatebako_load_theme_support(){
+
+	/* === BACK COMPAT === */
+
+	tamatebako_require_if_theme_supports( 'tamatebako-back-compat', 'modules/back-compat' );
 
 	/* === REGISTER SIDEBARS === */
 
@@ -112,6 +116,10 @@ function tamatebako_load_theme_support(){
 	/* === CUSTOM CSS === */
 
 	tamatebako_require_if_theme_supports( 'tamatebako-custom-css', 'modules/custom-css/custom-css' );
+
+	/* === CUSTOM FONTS === */
+
+	tamatebako_require_if_theme_supports( 'tamatebako-custom-fonts', 'modules/custom-fonts/custom-fonts' );
 
 	/* === SCRIPTS === */
 

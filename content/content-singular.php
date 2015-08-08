@@ -1,6 +1,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<div class="entry-wrap">
+	<div class="wrap">
 
 		<header class="entry-header">
 			<?php tamatebako_entry_title(); ?>
@@ -13,10 +13,10 @@
 
 		<footer class="entry-footer">
 			<?php edit_post_link(); ?>
-			<?php tamatebako_entry_terms(); ?>
+			<?php tamatebako_entry_taxonomies(); ?>
 		</footer><!-- .entry-footer -->
 
-	</div><!-- .entry-wrap -->
+	</div><!-- .entry > .wrap -->
 
 </article><!-- .entry -->
 

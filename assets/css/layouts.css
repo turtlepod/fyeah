@@ -1,23 +1,21 @@
 /* === LAYOUTS === */
-#main{
+#container > .wrap{
 	padding-right: 0;
 }
-.main-inner{
+#main{
 	float: right;
 	width: 100%;
 }
-.main-wrap{
+#main > .wrap{
 	float: none;
 	margin-right: 340px;
 	margin-right: 34rem;
-}
-.content-entry-wrap{
 }
 #content{
 	width: 100%;
 	float: left;
 }
-#header-wrap{
+#header{
 	float: right;
 	margin-right: -320px;
 	margin-right: -32rem;
@@ -27,21 +25,21 @@
 }
 
 /* Layout: "content-header" */
-.layout-content-header .main-inner{
+.layout-content-header #main{
 	padding-left: 0;
 	width: 100%;
 }
-.layout-content-header #header{
+.layout-content-header #header > .wrap{
 	margin-left: 40px;
 	margin-left: 4rem;
 }
 /* Layout: "header-content" */
-.layout-header-content .main-inner{
+.layout-header-content #main{
 	padding-left: 0;
 	float: none;
 	width: 100%;
 }
-.layout-header-content .main-wrap{
+.layout-header-content #main > .wrap{
 	margin-right: 0;
 	margin-left: 340px;
 	margin-left: 34rem;
@@ -49,7 +47,7 @@
 .layout-header-content #content{
 	float: right;
 }
-.layout-header-content #header-wrap{
+.layout-header-content #header{
 	float: left;
 	margin-right: 0;
 	margin-left: -340px;

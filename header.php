@@ -1,6 +1,6 @@
-<div id="header-wrap">
+<header id="header" role="banner">
 
-	<header role="banner" id="header">
+	<div class="wrap">
 
 		<div id="branding">
 
@@ -30,6 +30,6 @@
 
 		<?php get_template_part( 'menu/social-links' ); ?>
 
-	</header><!-- #header-->
+	</div><!-- #header > .wrap -->
 
-</div><!-- #header-wrap -->
+</header><!-- #header -->

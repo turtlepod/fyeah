@@ -1,6 +1,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<div class="entry-wrap">
+	<div class="wrap">
 
 		<?php if( is_singular() ){ ?>
 			<header class="entry-header">
@@ -22,12 +22,12 @@
 		<footer class="entry-footer">
 			<?php tamatebako_comments_link(); ?>
 			<?php if( is_singular() ){?>
-				<?php tamatebako_entry_terms(); ?>
+				<?php tamatebako_entry_taxonomies(); ?>
 				<?php edit_post_link(); ?>
 			<?php } ?>
 		</footer><!-- .entry-footer -->
 
-	</div><!-- .entry-wrap -->
+	</div><!-- .entry > .wrap -->
 
 </article><!-- .entry -->
 
