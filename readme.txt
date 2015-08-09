@@ -38,7 +38,7 @@ This theme is licensed under the GNU General Public License, version 2 (GPL) or 
 
 = How to change Layout? =
 
-You can change Layout in Customize Page. You can change individual post layout using Layouts meta box in post edit screen.
+You can change Layout in Customize Page.
 
 = How to upload Logo? =
 
@@ -100,6 +100,11 @@ Social networks that aren't currently supported will be indicated by a generic s
 * help-icon
 
 == Changelog ==
+
+= 1.2.1 - 09.08.2015 =
+
+* Update Lib.
+* Better Min CSS.
 
 = 1.2.0 - 08.08.2015 =
 
