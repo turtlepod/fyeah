@@ -7,8 +7,6 @@
 
 <body <?php body_class(); ?>>
 
-	<?php echo tamatebako_check_js_script(); ?>
-
 	<div class="header-image-container">
 		<?php if ( current_theme_supports( 'custom-header' ) && get_header_image() ) { /* Custom Header */ ?>
 			<div class="header-image" style="background-image: url( '<?php header_image(); ?>' )"></div>
