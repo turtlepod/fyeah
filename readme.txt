@@ -2,7 +2,7 @@
 Contributors: turtlepod
 Requires at least: 4.1
 Tested up to: 4.3
-Version: 1.3.0
+Version: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, responsive-layout, two-columns, left-sidebar, right-sidebar, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, sticky-post, threaded-comments, translation-ready
@@ -100,6 +100,11 @@ Social networks that aren't currently supported will be indicated by a generic s
 * help-icon
 
 == Changelog ==
+
+= 1.3.1 - 05.09.2015 =
+
+* Update Lib (comment moderation message).
+* Fix CSS: entry taxonomies.
 
 = 1.3.0 - 01.09.2015 =
 

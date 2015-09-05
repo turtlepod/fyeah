@@ -660,61 +660,61 @@ body.admin-bar #menu-primary{
 		}
 		.entry-taxonomies{
 		}
-			.entry-taxonomies .entry-terms{
+			.entry-taxonomies .entry-taxonomy{
 				margin-right: 10px;
 				margin-right: 1rem;
 				display: inline-block;
 			}
-			.entry-taxonomies .entry-terms a{
+			.entry-taxonomies .entry-taxonomy a{
 				color: #444;
 			}
-			.entry-taxonomies .entry-terms a:hover,
-			.entry-taxonomies .entry-terms a:focus{
+			.entry-taxonomies .entry-taxonomy a:hover,
+			.entry-taxonomies .entry-taxonomy a:focus{
 				color: #666;
 			}
-				.entry-terms.category .term-name,
-				.entry-terms.post_tag .term-name,
-				.entry-terms.post_format .term-name{
+				.entry-taxonomy.category .entry-taxonomy-text,
+				.entry-taxonomy.post_tag .entry-taxonomy-text,
+				.entry-taxonomy.post_format .entry-taxonomy-text{
 					display: none;
 				}
-				.entry-terms:before{
+				.entry-taxonomy:before{
 					content: '';
 					font-family: "genericons";
 					margin-right: 0;
 					vertical-align: top;
 					-webkit-font-smoothing: antialiased;
 				}
-				.entry.format-aside .entry-terms.post_format:before{
+				.entry.format-aside .entry-taxonomy.post_format:before{
 					content: '\f101';
 				}
-				.entry.format-image .entry-terms.post_format:before{
+				.entry.format-image .entry-taxonomy.post_format:before{
 					content: '\f102';
 				}
-				.entry.format-gallery .entry-terms.post_format:before{
+				.entry.format-gallery .entry-taxonomy.post_format:before{
 					content: '\f103';
 				}
-				.entry.format-video .entry-terms.post_format:before{
+				.entry.format-video .entry-taxonomy.post_format:before{
 					content: '\f104';
 				}
-				.entry.format-status .entry-terms.post_format:before{
+				.entry.format-status .entry-taxonomy.post_format:before{
 					content: '\f105';
 				}
-				.entry.format-quote .entry-terms.post_format:before{
+				.entry.format-quote .entry-taxonomy.post_format:before{
 					content: '\f106';
 				}
-				.entry.format-link .entry-terms.post_format:before{
+				.entry.format-link .entry-taxonomy.post_format:before{
 					content: '\f107';
 				}
-				.entry.format-chat .entry-terms.post_format:before{
+				.entry.format-chat .entry-taxonomy.post_format:before{
 					content: '\f108';
 				}
-				.entry.format-audio .entry-terms.post_format:before{
+				.entry.format-audio .entry-taxonomy.post_format:before{
 					content: '\f109';
 				}
-				.entry .entry-terms.category:before{
+				.entry .entry-taxonomy.category:before{
 					content: '\f301';
 				}
-				.entry .entry-terms.post_tag:before{
+				.entry .entry-taxonomy.post_tag:before{
 					content: '\f302';
 				}
 
@@ -1028,6 +1028,13 @@ body.admin-bar #menu-primary{
 					}
 				.comment-content{
 				}
+					.comment-awaiting-moderation{
+						background: #fffa7c;
+						padding: 10px;
+						padding: 1rem;
+						text-align: center;
+						border: 1px solid #e0da23;
+					}
 					.comment-content p{
 						margin-bottom: 10px;
 						margin-bottom: 1rem;
