@@ -1,15 +1,15 @@
 === fyeah ===
 Contributors: turtlepod
-Tags: light, responsive-layout, two-columns, left-sidebar, right-sidebar, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, sticky-post, threaded-comments, translation-ready
-Requires at least: 4.0
-Tested up to: 4.2
-Stable tag: 4.2
+Requires at least: 4.1
+Tested up to: 4.3
+Version: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, responsive-layout, two-columns, left-sidebar, right-sidebar, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, sticky-post, threaded-comments, translation-ready
 
 == Description ==
 
-Responsive theme with post formats support, two layouts, header image, logo upload, background color, custom color, custom font, and custom css option.
+Tumbrl-inspired theme, responsive, with post formats support, two layouts, header image, logo upload, background color, custom color, custom font, and custom css option.
 
 * Responsive Layout
 * Logo / Avatar
@@ -100,6 +100,18 @@ Social networks that aren't currently supported will be indicated by a generic s
 * help-icon
 
 == Changelog ==
+
+= 1.3.1 - 05.09.2015 =
+
+* Update Lib (comment moderation message).
+* Fix CSS: entry taxonomies.
+
+= 1.3.0 - 01.09.2015 =
+
+* Update Lib (logo fix, etc)
+* Fix Stuff.
+* Merge all "dev" css.
+* Update language files.
 
 = 1.2.1 - 09.08.2015 =
 

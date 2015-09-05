@@ -19,7 +19,6 @@ function fyeah_scripts_body_class( $classes ){
 /* === EDITOR STYLE === */
 
 $editor_css = array(
-	'assets/css/base.min.css',
 	'assets/css/editor.css',
 );
 add_editor_style( $editor_css );
@@ -27,90 +26,23 @@ add_editor_style( $editor_css );
 
 /* === ENQUEUE SCRIPTS === */
 
-add_action( 'wp_enqueue_scripts', 'fyeah_scripts' );
+add_action( 'wp_enqueue_scripts', 'fyeah_enqueue_scripts' );
 
 /**
  * Enqueue Scripts
  */
-function fyeah_scripts(){
+function fyeah_enqueue_scripts(){
+	global $tamatebako;
+	$name = $tamatebako->name;
+	$child = $tamatebako->child;
 
 	/* == JS == */
-	wp_enqueue_script( 'theme-fitvids' );
-	wp_enqueue_script( 'theme-js' );
+	wp_enqueue_script( "fitvids", tamatebako_theme_file( "assets/js/jquery.fitvids", "js" ) , array( 'jquery' ), '1.1.0', true );
+	wp_enqueue_script( "{$name}-script", tamatebako_theme_file( "assets/js/jquery.theme", "js" ), array( 'jquery', 'fitvids' ), tamatebako_theme_version(), true );
 
 	/* == CSS == */
-	wp_enqueue_style( 'theme-genericons' );
-	//$dev = true;
-	if ( isset( $dev ) && $dev ){
-		wp_enqueue_style( 'theme-base' );
-		wp_enqueue_style( 'theme-menus' );
-		wp_enqueue_style( 'theme-layouts' );
-		wp_enqueue_style( 'theme-widgets' );
-		wp_enqueue_style( 'theme-comments' );
-		wp_enqueue_style( 'theme' );
-		wp_enqueue_style( 'theme-media-queries' );
-		wp_enqueue_style( 'debug-media-queries' );
-	}
-	else{
-		tamatebako_maybe_enqueue_style( 'parent' );
-		wp_enqueue_style( 'style' );
-	}
+	wp_enqueue_style( "genericons", tamatebako_theme_file( "assets/genericons/genericons", "css" ), array(), '3.3.1', 'all' );
+	wp_enqueue_style( "{$name}-style" );
+	if( is_child_theme() ) wp_enqueue_style( "{$child}-style" ); /* child theme css. */
+	if( tamatebako_is_debug() ) wp_enqueue_style( "{$name}-debug" ); /* media queries debug. */
 }
-
-/* === REGISTER JS === */
-
-$register_js_scripts = array(
-	/* Library */
-	"theme-fitvids" => array(
-		'src'        => tamatebako_theme_file( 'assets/js/jquery.fitvids', 'js' ),
-		'deps'       => array( 'jquery' ),
-		'ver'        => '1.1.0',
-	),
-	/* Theme */
-	"theme-js" => array(
-		'src'        => tamatebako_theme_file( 'assets/js/jquery.theme', 'js' ),
-		'deps'       => array( 'jquery', 'theme-fitvids' ),
-		'ver'        => tamatebako_theme_version(),
-		'in_footer'  => true,
-	),
-);
-add_theme_support( 'tamatebako-register-js', $register_js_scripts );
-
-
-/* === REGISTER CSS === */
-
-$register_css_scripts = array(
-
-	/* Icon */
-	"theme-genericons" => array(
-		'src'   => tamatebako_theme_file( 'assets/fonts/genericons/genericons', 'css' ),
-		'ver'   => '3.3.1',
-	),
-	/* Theme */
-	"theme-base" => array(
-		'src'   => tamatebako_theme_file( 'assets/css/base', 'css' ),
-	),
-	"theme-layouts" => array(
-		'src'   => tamatebako_theme_file( 'assets/css/layouts', 'css' ),
-	),
-	"theme-menus" => array(
-		'src'   => tamatebako_theme_file( 'assets/css/menus', 'css' ),
-	),
-	"theme-comments" => array(
-		'src'   => tamatebako_theme_file( 'assets/css/comments', 'css' ),
-	),
-	"theme-widgets" => array(
-		'src'   => tamatebako_theme_file( 'assets/css/widgets', 'css' ),
-	),
-	"theme" => array(
-		'src'   => tamatebako_theme_file( 'assets/css/theme', 'css' ),
-	),
-	"theme-media-queries" => array(
-		'src'   => tamatebako_theme_file( 'assets/css/media-queries', 'css' ),
-	),
-	"debug-media-queries" => array(
-		'src'   => tamatebako_theme_file( 'assets/css/debug-media-queries', 'css' ),
-	),
-);
-add_theme_support( 'tamatebako-register-css', $register_css_scripts );
-

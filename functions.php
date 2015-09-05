@@ -17,44 +17,44 @@ function fyeah_theme_setup(){
 	/* === MINIMUM SYSTEM REQ === */
 	$back_compat_args = array(
 		'theme_name'   => 'fyeah',
-		'wp_requires'  => '4.0.0',
+		'wp_requires'  => '4.1.0',
 		'php_requires' => '5.2.4',
 	);
 	add_theme_support( 'tamatebako-back-compat', $back_compat_args );
 	if( ! tamatebako_minimum_requirement( $back_compat_args ) ) return;
 
 	/* === TRANSLATION === */
-	tamatebako_include( 'translation', 'includes' );
+	tamatebako_include( 'includes/translation' );
 
 	/* === CUSTOM FONTS === */
-	tamatebako_include( 'custom-fonts', 'includes' );
+	tamatebako_include( 'includes/custom-fonts' );
 
 	/* === SCRIPTS === */
-	tamatebako_include( 'scripts', 'includes' );
+	tamatebako_include( 'includes/scripts' );
 
 	/* === SETUP: Sidebars, Menus, Image Sizes, Content Width === */
-	tamatebako_include( 'setup', 'includes' );
+	tamatebako_include( 'includes/setup' );
 
 	/* === LAYOUTS === */
-	tamatebako_include( 'layouts', 'includes' );
+	tamatebako_include( 'includes/layouts' );
 
 	/* === BACKGROUND === */
-	tamatebako_include( 'background', 'includes' );
+	tamatebako_include( 'includes/background' );
 
 	/* === HEADER IMAGE === */
-	tamatebako_include( 'header-image', 'includes' );
+	tamatebako_include( 'includes/header-image' );
 
 	/* === LOGO === */
-	tamatebako_include( 'logo', 'includes' );
+	tamatebako_include( 'includes/logo' );
 
 	/* === UTILITY: Mobile View, Custom CSS === */
-	tamatebako_include( 'utility', 'includes' );
+	tamatebako_include( 'includes/utility' );
 
 	/* === POST FORMATS === */
-	tamatebako_include( 'post-formats', 'includes' );
+	tamatebako_include( 'includes/post-formats' );
 
 	/* === COLOR OPTIONS === */
-	tamatebako_include( 'color', 'includes' );
+	tamatebako_include( 'includes/color' );
 }
 
 do_action( 'tamatebako_after_setup' );
