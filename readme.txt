@@ -101,6 +101,10 @@ Social networks that aren't currently supported will be indicated by a generic s
 
 == Changelog ==
 
+= 1.3.2 - 25.11.2015 =
+
+* Fix bug in editor css/base css (audio shortcode).
+
 = 1.3.1 - 05.09.2015 =
 
 * Update Lib (comment moderation message).
