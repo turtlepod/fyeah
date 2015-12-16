@@ -142,7 +142,7 @@ function tamatebako_styles(){
 		wp_register_style(
 			sanitize_title( $tamatebako->child . '-style' ),
 			esc_url( $stylesheet_uri ),
-			array( sanitize_title( $tamatebako->name ) ),
+			array( sanitize_title( $tamatebako->name ) . '-style' ),
 			tamatebako_child_theme_version(),
 			'all'
 		);
@@ -201,6 +201,11 @@ function tamatebako_body_class( $classes ){
 	/* Plural/multiple-post view (opposite of singular). */
 	if ( is_home() || is_archive() || is_search() ){
 		$classes[] = 'plural';
+	}
+
+	/* Singular */
+	if( is_singular() ){
+		$classes[] = 'singular';
 	}
 
 	/* Get all registered sidebars */

@@ -1,18 +1,19 @@
 # Copyright (C) 2014 David Chandra Purnama
 # This file is distributed under the GNU General Public License v2.0 or later.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Theme\n"
 "Report-Msgid-Bugs-To: http://genbu.me/contact/\n"
-"POT-Creation-Date: 2015-09-05 11:22+0700\n"
-"PO-Revision-Date: 2015-09-05 11:24+0700\n"
+"POT-Creation-Date: 2015-12-16 11:12+0700\n"
+"PO-Revision-Date: 2015-09-05 11:21+0700\n"
 "Last-Translator: David Chandra Purnama <david@shellcreeper.com>\n"
 "Language-Team: \n"
-"Language: id_ID\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -25,87 +26,87 @@ msgstr ""
 #: includes/color.php:30
 msgctxt "customizer"
 msgid "Background Color"
-msgstr "Warna Latar Belakang"
+msgstr ""
 
 #: includes/color.php:54
 msgctxt "customizer"
 msgid "Link Color"
-msgstr "Warna Tautan"
+msgstr ""
 
 #: includes/color.php:78
 msgctxt "customizer"
 msgid "Link Hover Color"
-msgstr "Warna Tautan (Hover)"
+msgstr ""
 
 #: includes/custom-fonts.php:10
 msgctxt "customizer"
 msgid "Site Title Font"
-msgstr "Font Judul Situs"
+msgstr ""
 
 #: includes/custom-fonts.php:16
 msgctxt "customizer"
 msgid "Post Title Font"
-msgstr "Font Judul Tulisan"
+msgstr ""
 
 #: includes/custom-fonts.php:22
 msgctxt "customizer"
 msgid "Base Font"
-msgstr "Font Dasar"
+msgstr ""
 
 #: includes/custom-fonts.php:39
 msgctxt "Google Font Subset: add new subset( greek, cyrillic, vietnamese )"
 msgid "no-subset"
-msgstr "no-subset"
+msgstr ""
 
 #: includes/custom-fonts.php:44
 msgctxt "customizer"
 msgid "Fonts"
-msgstr "Font"
+msgstr ""
 
 #: includes/layouts.php:9
 msgctxt "layout name"
 msgid "Header | Content"
-msgstr "Kepala Halaman | Konten"
+msgstr ""
 
 #: includes/layouts.php:13
 msgctxt "layout name"
 msgid "Content | Header"
-msgstr "Konten | Kepala Halaman"
+msgstr ""
 
 #: includes/layouts.php:25
 msgctxt "layout"
 msgid "Default"
-msgstr "Default"
+msgstr ""
 
 #: includes/layouts.php:26
 msgctxt "layout"
 msgid "Layout"
-msgstr "Layout"
+msgstr ""
 
 #: includes/layouts.php:27
 msgctxt "layout"
 msgid "Global Layout"
-msgstr "Layout Global"
+msgstr ""
 
 #: includes/layouts.php:55
 msgctxt "customizer"
 msgid "For standard post in archive, show"
-msgstr "Untuk pos standar di halaman archive, tampilkan"
+msgstr ""
 
 #: includes/layouts.php:60
 msgctxt "customizer"
 msgid "Full Text"
-msgstr "Text Penuh"
+msgstr ""
 
 #: includes/layouts.php:61
 msgctxt "customizer"
 msgid "Summary"
-msgstr "Ringkasan"
+msgstr ""
 
 #: includes/logo.php:13
 msgctxt "customizer"
 msgid "Logo"
-msgstr "Logo"
+msgstr ""
 
 #: includes/logo.php:14
 msgctxt "customizer"
@@ -113,137 +114,135 @@ msgid ""
 "Recommended size for logo is 300px wide and 300px tall. Logo Will be "
 "displayed as circle with border."
 msgstr ""
-"Ukuran logo yang direkomendasikan adalah lebar 300px dan panjang 300px. Logo "
-"akan ditampilkan dalam bentuk lingkaran dengan border."
 
 #: includes/setup.php:16
 msgctxt "sidebar name"
 msgid "Sidebar"
-msgstr "Sidebar"
+msgstr ""
 
 #: includes/setup.php:24
 msgctxt "nav menu name"
 msgid "Navigation"
-msgstr "Navigasi"
+msgstr ""
 
 #: includes/setup.php:25
 msgctxt "nav menu name"
 msgid "Social Links"
-msgstr "Tautan Social"
+msgstr ""
 
 #: includes/setup.php:26
 msgctxt "nav menu name"
 msgid "Footer Links"
-msgstr "Tautan Kaki Halaman"
+msgstr ""
 
 #: includes/translation.php:13
 msgctxt "accessibility"
 msgid "Skip to content"
-msgstr "Loncat ke konten"
+msgstr ""
 
 #: includes/translation.php:16
 msgctxt "pagination"
 msgid "Next"
-msgstr "Berikutnya"
+msgstr ""
 
 #: includes/translation.php:17
 msgctxt "pagination"
 msgid "Previous"
-msgstr "Sebelumnya"
+msgstr ""
 
 #: includes/translation.php:20
 msgctxt "nav menu"
 msgid "Search&hellip;"
-msgstr "Cari&hellip;"
+msgstr ""
 
 #: includes/translation.php:21
 msgctxt "nav menu"
 msgid "Search"
-msgstr "Cari"
+msgstr ""
 
 #: includes/translation.php:22
 msgctxt "nav menu"
 msgid "Expand Search Form"
-msgstr "Buka Formulir Pencarian"
+msgstr ""
 
 #: includes/translation.php:23
 msgctxt "nav menu"
 msgid "Home"
-msgstr "Beranda"
+msgstr ""
 
 #: includes/translation.php:26
 msgctxt "entry"
 msgid "404 Not Found"
-msgstr "404 Tidak Ditemukan"
+msgstr ""
 
 #: includes/translation.php:27
 msgctxt "entry"
 msgid "Apologies, but no entries were found."
-msgstr "Maaf, tidak ada entri ditemukan."
+msgstr ""
 
 #: includes/translation.php:28
 msgctxt "entry"
 msgid "Next"
-msgstr "Berikutnya"
+msgstr ""
 
 #: includes/translation.php:29
 msgctxt "entry"
 msgid "Previous"
-msgstr "Sebelumnya"
+msgstr ""
 
 #: includes/translation.php:32
 msgctxt "comment"
 msgid "Next"
-msgstr "Berikutnya"
+msgstr ""
 
 #: includes/translation.php:33
 msgctxt "comment"
 msgid "Previous"
-msgstr "Sebelumnya"
+msgstr ""
 
 #: includes/translation.php:34
 msgctxt "comment"
 msgid "Comments are closed, but trackbacks and pingbacks are open."
-msgstr "Komentar ditutup, tapi pelacakan dan ping dibuka."
+msgstr ""
 
 #: includes/translation.php:35
 msgctxt "comment"
 msgid "Comments are closed."
-msgstr "Komentar ditutup."
+msgstr ""
 
 #: includes/translation.php:38
 msgctxt "entry"
 msgid "(Untitled)"
-msgstr "(Tanpa Judul)"
+msgstr ""
 
 #: includes/translation.php:39
 msgctxt "entry"
 msgid "Read More"
-msgstr "Baca Selengkapnya"
+msgstr ""
 
 #: includes/translation.php:40
 msgctxt "archive title"
 msgid "Search:"
-msgstr "Pencarian:"
+msgstr ""
 
 #: includes/translation.php:41
 msgctxt "comment"
 msgid "Your comment is awaiting moderation."
-msgstr "Komentar Anda sedang menunggu moderasi."
+msgstr ""
 
 #: includes/utility.php:11 includes/utility.php:12
 msgctxt "customizer"
 msgid "Custom CSS"
-msgstr "CSS Kustom"
+msgstr ""
 
 #: menu/primary.php:30
 msgid "Open Sidebar"
-msgstr "Buka Sidebar"
+msgstr ""
 
 #: sidebar/primary.php:13
 msgctxt "default widget"
 msgid "About \"fyeah\""
-msgstr "Tentang \"fyeah\""
+msgstr ""
 
 #: sidebar/primary.php:14
 msgctxt "default widget"
@@ -251,57 +250,3 @@ msgid ""
 "Responsive theme with post formats, two layouts, header image, logo upload, "
 "background color, and custom css option."
 msgstr ""
-"Tema Responsive dengan support post format, dua pilihan layout, gambar "
-"kepala halaman, pengunggah logo, latar belakang halaman, dan opsi CSS kustom."
-
-#~ msgctxt "entry"
-#~ msgid "Permalink"
-#~ msgstr "Permalink"
-
-#, fuzzy
-#~ msgid "Close Sidebar"
-#~ msgstr "Konten | Sidebar 1"
-
-#~ msgctxt "customizer"
-#~ msgid "Full Size Background"
-#~ msgstr "Latar Belakang Ukuran Penuh"
-
-#~ msgctxt "layout name"
-#~ msgid "Content"
-#~ msgstr "Konten"
-
-#~ msgctxt "layout name"
-#~ msgid "Content | Sidebar 2"
-#~ msgstr "Konten | Sidebar 2"
-
-#~ msgctxt "layout name"
-#~ msgid "Sidebar 2 | Content"
-#~ msgstr "Sidebar 2 | Konten"
-
-#~ msgctxt "layout name"
-#~ msgid "Sidebar 2 | Content | Sidebar 1"
-#~ msgstr "Sidebar 2 | Konten | Sidebar 1"
-
-#~ msgctxt "layout name"
-#~ msgid "Sidebar 2 | Sidebar 1 | Content"
-#~ msgstr "Sidebar 2 | Sidebar 1 | Konten"
-
-#~ msgctxt "layout name"
-#~ msgid "Content | Sidebar 1 | Sidebar 2"
-#~ msgstr "Konten | Sidebar 1 | Sidebar 2"
-
-#~ msgctxt "layout name"
-#~ msgid "Sidebar 1 | Content | Sidebar 2"
-#~ msgstr "Sidebar 1 | Konten | Sidebar 2"
-
-#~ msgctxt "customizer"
-#~ msgid ""
-#~ "This will replace site title with logo in header area. Recommended size "
-#~ "is 300px wide and 200px tall."
-#~ msgstr ""
-#~ "Logo akan menggantikan judul situs di area kepala halaman. Ukuran yang "
-#~ "direkomendasikan adalah lebar 300px dan tinggi 200px."
-
-#~ msgctxt "archive title"
-#~ msgid "Search results for"
-#~ msgstr "Hasil pencarian untuk"
