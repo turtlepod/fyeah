@@ -101,46 +101,52 @@ Social networks that aren't currently supported will be indicated by a generic s
 
 == Changelog ==
 
-= 1.3.2 - 25.11.2015 =
+= 1.3.3 - 16.DEC.2015 =
+
+* Fix bug for auto-load child theme CSS (tamatebako update).
+* Fix Enqueue Debug CSS.
+* Fix translation.
+
+= 1.3.2 - 25.NOV.2015 =
 
 * Fix bug in editor css/base css (audio shortcode).
 
-= 1.3.1 - 05.09.2015 =
+= 1.3.1 - 05.SEPT.2015 =
 
 * Update Lib (comment moderation message).
 * Fix CSS: entry taxonomies.
 
-= 1.3.0 - 01.09.2015 =
+= 1.3.0 - 01.SEP.2015 =
 
 * Update Lib (logo fix, etc)
 * Fix Stuff.
 * Merge all "dev" css.
 * Update language files.
 
-= 1.2.1 - 09.08.2015 =
+= 1.2.1 - 09.AUG.2015 =
 
 * Update Lib.
 * Better Min CSS.
 
-= 1.2.0 - 08.08.2015 =
+= 1.2.0 - 08.AUG.2015 =
 
 * Custom Fonts.
 * Restructure HTML.
 * Add more icons.
 
-= 1.1.1 - 25.07.2015 =
+= 1.1.1 - 25.JUL.2015 =
 
 * PHP 5.2 Compat.
 * Add post display option.
 * Bug Fix.
 * Better Post Formats Design + responsive.
 
-= 1.1.0 - 25.07.2015 =
+= 1.1.0 - 25.JUL.2015 =
 
 * Change screenshot.
 * Add color options.
 * Bug Fix.
 
-= 1.0.0 - 24.07.2015 =
+= 1.0.0 - 24.JUL.2015 =
 
 * Initial Release.

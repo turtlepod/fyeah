@@ -44,5 +44,5 @@ function fyeah_enqueue_scripts(){
 	wp_enqueue_style( "genericons", tamatebako_theme_file( "assets/genericons/genericons", "css" ), array(), '3.3.1', 'all' );
 	wp_enqueue_style( "{$name}-style" );
 	if( is_child_theme() ) wp_enqueue_style( "{$child}-style" ); /* child theme css. */
-	if( tamatebako_is_debug() ) wp_enqueue_style( "{$name}-debug" ); /* media queries debug. */
+	if( tamatebako_is_debug() ) wp_enqueue_style( "{$name}-debug", tamatebako_theme_file( "assets/css/base/debug", "css" ), array() ); /* media queries debug. */
 }
