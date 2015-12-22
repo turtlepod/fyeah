@@ -101,6 +101,11 @@ Social networks that aren't currently supported will be indicated by a generic s
 
 == Changelog ==
 
+= 1.3.4 - 22.DEC.2015 =
+
+* Fix CSS Bug after .entry-header dot line (no dot in singular).
+
+
 = 1.3.3 - 16.DEC.2015 =
 
 * Fix bug for auto-load child theme CSS (tamatebako update).
