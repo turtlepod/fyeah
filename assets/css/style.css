@@ -720,7 +720,6 @@ body.admin-bar #menu-primary{
 
 
 /* Clear */
-.singular .entry-header:after,
 .singular .entry-content:after,
 .singular .entry-footer:after{
 	content:".";display:block;height:0;clear:both;visibility:hidden;
