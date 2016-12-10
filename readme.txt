@@ -1,11 +1,11 @@
 === fyeah ===
 Contributors: turtlepod
 Requires at least: 4.1
-Tested up to: 4.4
-Version: 1.4.1
+Tested up to: 4.7
+Version: 1.5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: light, responsive-layout, two-columns, left-sidebar, right-sidebar, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, sticky-post, threaded-comments, translation-ready
+Tags: two-columns, left-sidebar, right-sidebar, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, sticky-post, threaded-comments, translation-ready
 
 == Description ==
 
@@ -22,6 +22,10 @@ For more info please visit theme page: [fyeah WordPress Theme](http://genbumedia
 3. Click Activate to use your new theme right away.
 
 == Changelog ==
+
+= 1.5.0 - 10.DEC.2016 =
+
+* WP 4.7 Compat.
 
 = 1.4.1 - 20.MAR.2016 =
 
