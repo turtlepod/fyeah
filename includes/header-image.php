@@ -6,8 +6,8 @@
 /* === Custom Header Image === */
 $custom_header_args = array(
 	'default-image'          => get_template_directory_uri() . '/assets/images/header.jpg',
-	'random-default'         => true,
-	'width'                  => 0,
+	'random-default'         => false,
+	'width'                  => 1600,
 	'height'                 => 200,
 	'flex-height'            => false,
 	'flex-width'             => true,
